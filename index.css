@@ -1,0 +1,70 @@
+
+.root{
+	font-size:14px;
+}
+ 
+
+ .messages ul li{
+ 	list-style: none;
+ }
+ 
+ .col-bar{
+ 	background-color: #e4e5e7;
+ 	height:6.5vh;
+
+ }
+
+
+.top-bar{
+	background-color: #128c7e;
+	color: white;
+	height: 3vh;
+}
+
+.nav{
+	background-color: #128c7e;
+	color:white;
+}
+
+.nav .row .col{
+	width:40vw;
+
+}
+
+.col-md-8 p{
+	margin:0;
+}
+
+.col-lg-8{
+ 	background-color:#ffffcc;
+ 	height:85vh;
+ }
+.single-message{
+	margin:1rem;
+    background-color: white;
+    flex: :wrap;
+    height: 10vh;
+}
+
+.single-message p{
+	margin: 0;
+}
+
+.type-message{
+	width:60vw;
+}
+
+ 
+@media screen and (min-width:768px) and (max-width: 990px){
+	.row .col-lg-8 .messages{
+		visibility:visible;
+	}
+}
+
+@media screen and (max-width:1024px)  {
+	.col-bar{
+		height:5.6vh;
+		font-size:1.4rem;
+	}
+}
+ 
